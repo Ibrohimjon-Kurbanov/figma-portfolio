@@ -1,0 +1,141 @@
+.hero {
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero .header {
+  width: 100%;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+.hero .header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .header__container .sitenav__list {
+  display: flex;
+  gap: 5rem;
+}
+.hero .header__container .active {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: #a1b5bb;
+  text-underline-offset: 0.6rem;
+}
+.hero .header__container .sitenav__link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #a1b5bb;
+}
+.hero .header__container .header__btn {
+  padding: 1.5rem 3.5rem;
+  background-color: #145e76;
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 25px;
+  line-height: 28.8px;
+  font-weight: 700;
+}
+
+/* inter-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v18-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v18-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v18-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* schoolbell-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/schoolbell-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* GLOBAL */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.4s linear;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #696969;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 25.6px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+/* MAIN */
+.main {
+  flex-grow: 1;
+}/*# sourceMappingURL=main.css.map */
