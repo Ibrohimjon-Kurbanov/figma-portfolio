@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
   <body>
@@ -41,12 +45,25 @@
                 <li class="sitenav__item">
                   <a class="sitenav__link" href="#">Blog</a>
                 </li>
+                <!-- BTN -->
+                <div class="btn-hidden">
+                  <a class="header__btn-hidden" href="#">Contact</a>
+                </div>
               </ul>
             </nav>
+            <!-- MENU BUTTUN -->
+            <div class="header__toggle-btn">
+              <i id="menu" class="bx bx-menu"></i>
+            </div>
             <!-- BTN -->
             <a class="header__btn" href="#">Contact</a>
           </div>
-          <!-- <div class="hero__container">
+        </div>
+      </header>
+
+      <div class="hero__wrapper">
+        <div class="container">
+          <div class="hero__container">
             <div class="hero__left">
               <a class="hero__main-btn" href="#">Hey, I’m Musa</a>
               <h1 class="hero__heading">
@@ -57,45 +74,49 @@
                 UI/UX, Responsive web design, and visual Development.
               </p>
               <div class="hero__buttons">
-                <a href="hero__btn-1">Hire Me</a>
-                <a href="hero__btn-2">My Work</a>
+                <a class="hero__btn-1" href="#">Hire Me</a>
+                <a class="hero__btn-2" href="#">My Work</a>
               </div>
             </div>
             <div class="hero__right">
               <div class="hero__image">
                 <img
-                  class="hero boy"
+                  class="hero__pic"
                   src="./images/hero-pic.png"
                   alt="person"
-                  style="object-fit: cover"
+                  width="490"
                 />
               </div>
               <div class="hero__image-box">
-                <p class="hero__desc">
-                  ‘’Musa has benn an outstanding contributor to our team’s UI
-                  Designer needs highly recommened’’
-                </p>
-                <div class="hero__flex">
-                  <img
-                    src="./images/hero-boy-pic.png"
-                    alt="boy"
-                    width="45"
-                    height="45"
-                  />
-                  <div class="hero__content">
-                    <h4>Jason Holder</h4>
-                    <h5>UX Designer at Futura</h5>
+                <div class="hero__filter">
+                  <p class="hero__desc">
+                    ‘’Musa has benn an outstanding contributor to our team’s UI
+                    Designer needs highly recommened’’
+                  </p>
+                  <div class="hero__flex">
+                    <img
+                      src="./images/hero-boy-pic.png"
+                      alt="boy"
+                      width="45"
+                      height="45"
+                    />
+                    <div class="hero__content">
+                      <h4>Jason Holder</h4>
+                      <h5 class="hero__text">UX Designer at Futura</h5>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
-      </header>
+      </div>
     </section>
     <!-- MAIN -->
     <main class="main"></main>
     <!-- FOOTER -->
     <footer class="footer"></footer>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
